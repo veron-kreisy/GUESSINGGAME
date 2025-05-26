@@ -1,11 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NUMBERS GUESSING GAME</title>
-</head>
-<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" >
+        <script src="script.js"></script>
+        <title>NUMBERS GUESSING GAME</title>
+    </head>
+    <body>
+        <!-- what is required to create a numbers guessing game? and what will the user input  -->
+        <!-- input required input from the user, submit button,feedback display, score/attempts left,reset button  -->
+    <p>please guess a number between 0 and 10</p>
+    <p>
     
-</body>
-</html>
+        <h1>Instructions</h1>
+            <li>Enter your guess</li>
+            <li>See if your guess is too high or too low</li>
+            <li>Change your guess</li>
+    </p>
+    <p>
+       <input type="number" id="guessInput" min="0" max="10">
+  <button onclick="checkGuess()">Submit Guess</button>
+
+  <p id="feedback"></p>
+    </p>
+    </body>
+
+    </html>
