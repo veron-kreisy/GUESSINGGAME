@@ -19,3 +19,10 @@
     // check the if the user input is greater than 0 AND less than 10
     // if the input is less than the random then display too low and vice versa until you match the random number to the input
 
+function addnumbers(){
+    num1:2;
+    num2:4;
+    sum=num1+num2;
+    
+}
+return addnumbers;
